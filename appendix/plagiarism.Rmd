@@ -1,0 +1,16 @@
+---
+  header-includes:
+  - \usepackage{pdfpages}
+output: 
+  pdf_document:default
+---
+
+# APPENDICES 
+
+## Appendix 1 - Plagiarism declaration report
+
+
+<!-- \includepdf[pages=-]{plagiarism_declaration.pdf} -->
+  
+  \includegraphics{../docs/plagiarism_doc.pdf}
+

@@ -1,0 +1,22 @@
+---
+output: pdf_document
+---
+
+# NOMENCLATURE 
+\Large
+
+- **MySQL** -My Structured Query Language
+- **WHO** -World Health Organisation
+- **MODIS ** -Moderate Resolution Imaging Spectroradiometer
+- **EVI ** -Enhanced Vegetation Index
+- **SD** -Standard Deviation
+- **ARIMA** -AutoRegressive Integrated Moving Average
+- **SARIMA** -Seasonal AutoRegressive Integrated Moving Average
+- **ACF** -Autocorrelation Function
+- **PACF** -Partial autocorrelation function
+- **AR1** -Auto Regressive order 1
+- **MLE ** -Maximum Likelihood Estimation
+- **MCMC** -Markov chain Monte Carlo
+- **INLA** -Integrated Nested Laplace Approximations
+- **DIC** -Deviance Information Criterion
+- **GLM** -Generalised Linear Models

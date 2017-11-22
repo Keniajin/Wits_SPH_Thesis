@@ -1,0 +1,165 @@
+---
+output:
+  pdf_document: default
+---
+\newpage
+\addtocounter{section}{1}
+
+\setlength{\belowdisplayskip}{0pt} \setlength{\belowdisplayshortskip}{0pt}
+\setlength{\abovedisplayskip}{0pt} \setlength{\abovedisplayshortskip}{0pt}
+
+# CHAPTER 2: METHODOLOGY 
+
+## Introduction
+This chapter describes the study site, design and population .....
+
+## 2.1 ....  
+METHODOLOGY 2.1  then include an image under the images folder 
+
+<!-- you can change the caption and label  -->
+\begin{figure}[H]
+\centering{\includegraphics[keepaspectratio,height=5in]{images/kdhss.png}}
+\caption{The location of ....}
+\label{fig:figure1Kh}
+\end{figure}
+
+
+
+
+## 2.2 Study Design and Data Management
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+
+### 2.2.1 Data Quality
+ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+
+## 2.3 Study Population
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+
+### 2.3.1 Inclusion Criteria
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+
+### 2.3.2 Exclusion Criteria
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   
+ 
+
+## 2.4 Outcome and Explanatory Variables
+ 
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+
+## 2.5 Exploratory Data Analysis 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+
+### 2.5.1 
+Exploratory Data Analysis  2.5.1 and include equation that is not referenced
+
+In general the seasonal autoregressive moving average model is defined as;  
+$$
+\begin{array}{*{20}{c}}
+{\begin{array}{*{20}{c}}
+\text{ARIMA}\\
+{}
+\end{array}}\\
+{}
+\end{array}\begin{array}{*{20}{c}}
+{\left( {p,d,q} \right)}\\
+{\begin{array}{*{20}{c}}
+ \uparrow \\
+{{\text{\tiny{Non seasonal}}}}
+\end{array}}
+\end{array}{\rm{ }}\begin{array}{*{20}{c}}
+{{{\left( {P,D,Q} \right)}_s}}\\
+{\begin{array}{*{20}{c}}
+ \uparrow \\
+\text{\tiny{seasonal}}
+\end{array}}
+\end{array}
+$$
+
+
+
+In general SARIMA model with period $s$ is defined as;
+
+\begin{equation}
+\begin{matrix}
+   \left( 1-{{\varphi }_{p}}L \right)  \\
+   \begin{matrix}
+   \uparrow   \\
+   \text{NS AR(1)}  \\
+\end{matrix}  \\
+\end{matrix}\begin{matrix}
+   \left( 1-{{\theta }_{1}}{{L}^{s}} \right)  \\
+   \begin{matrix}
+   \uparrow   \\
+   \text{S AR(1)}  \\
+\end{matrix}  \\
+\end{matrix}\begin{matrix}
+   \left( 1-L \right)  \\
+   \begin{matrix}
+   \uparrow   \\
+   \text{NS D}  \\
+\end{matrix}  \\
+\end{matrix}\begin{matrix}
+   {{\left( 1-{{L}^{s}} \right)}_{yt}}  \\
+   \begin{matrix}
+   \uparrow   \\
+   \text{SD}  \\
+\end{matrix}  \\
+\end{matrix}\begin{matrix}
+   =  \\
+   {}  \\
+\end{matrix}\begin{matrix}
+   \left( 1+{{\phi }_{p}}L \right)  \\
+   \begin{matrix}
+   \uparrow   \\
+   \text{NS AR(1)}  \\
+\end{matrix}  \\
+\end{matrix}\begin{matrix}
+   {{\left( 1+{{\Theta }_{1}}{{L}^{s}} \right)}_{{{\ell }_{t}}}}  \\
+   \begin{matrix}
+   \uparrow   \\
+   \text{S AR(1)}  \\
+\end{matrix}  \\
+\end{matrix}
+\label{eq:sarima}
+\end{equation}
+
+
+
+### 2.5.2 S
+
+## 2.6 Inferential Statistics
+### 2.6.1  Inferential Statistics 1
+Include inline eqautions like this $x+y=x+y$ ....
+
+#### Model Definition and include equation
+The definition of the negative binomial spatial model is
+\begin{equation}
+\left. {{y}_{ijt}} \right|{{\psi }_{ijt}},\underset{\scriptscriptstyle\thicksim}{\Omega }\sim{\ }\pi \left( \left. {{y}_{ijt}} \right|{{\psi }_{ijt}};\underset{\scriptscriptstyle\thicksim}{\Omega } \right)
+\label{eq:binom1}
+\end{equation}
+
+
+###2.6.2 Inferential Statistics 2 
+Our outcome for objective 3 ...
+
+#### Model Definition
+
+Since our outcome is binary the general distribution is;
+$$
+{{y}_{i}}=\left\{ \begin{matrix}
+   1  \\
+   0  \\
+\end{matrix} \right.\begin{matrix}
+   \text{if there was a death}  \\
+   otherwise  \\
+\end{matrix}
+$$
+
+
+
+### 2.6.3 Model assesment and goodness of fit
+We adopted both multilevel models and Bayesian approach for model estimation....
+
+## 2.9 Ethical Clearance
+Ethical approval under clearance certificate number  was received from the Human Research Ethics Committee of the University of the Witwatersrand. The certificate is in Appendix 1. 

@@ -1,0 +1,19 @@
+---
+output: pdf_document
+---
+
+# DECLARATION
+
+I, [Your Name], student No: [1500000]  declare that this research report is my own work. It is being submitted for the degree of Master of Science in [Epidemiology in the field of  Biostatistics] at the University of Witwatersrand, Johannesburg. It has not been submitted before for any degree or examination at this or any other University.
+
+
+\vspace{4 cm}
+
+\begin{centering}
+
+
+<!-- change name and date accordingly  -->
+\line(1,0){450} \newline  
+[Your Name] \hspace{35pt} [November 2017]
+
+\end{centering}

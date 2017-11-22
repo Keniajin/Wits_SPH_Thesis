@@ -1,0 +1,122 @@
+---
+title: 'A TITLE: Keep it simple, brief and attractive '
+csl: bibiliography/vancouver.csl
+documentclass: article
+output:
+  pdf_document:
+    fig_caption: yes
+    includes:
+      in_header: style/mystyle.sty
+    keep_tex: yes
+    latex_engine: xelatex
+    number_sections: no
+  html_document:
+    toc: yes
+    toc_depth: '4'
+  word_document:
+    toc: yes
+    toc_depth: 4
+link-citations: yes
+linkcolor: blue
+fontsize: 12pt
+bibliography: bibiliography/bibliography.bib
+---
+\large
+\setstretch{1.5}
+
+
+\pagenumbering{gobble}
+```{r title, child = 'chapters/title_page.Rmd'}
+```
+
+
+```{r, global, echo=FALSE, results='hide' ,include=FALSE}
+knitr::opts_chunk$set(out.width="400px", dpi=120)
+```
+
+\newpage
+\pagenumbering{roman}
+
+
+\newpage
+```{r abstract, child = 'chapters/declaration.Rmd' , cache=TRUE}
+``` 
+
+
+\newpage
+# DEDICATION 
+<!-- update your dedication accordingly -->
+This research is dedicated to .......  ,. \newline
+To .... all is unto you. 
+
+
+\newpage
+```{r abstract, child = 'chapters/abstract.Rmd' , cache=TRUE}
+``` 
+
+
+\newpage
+```{r aknowledgement, child = 'chapters/aknowledgement.Rmd' , cache=TRUE}
+``` 
+
+
+<!-- # TABLE OF CONTENTS -->
+\newpage
+# TABLE OF CONTENTS
+\raggedright
+\tableofcontents
+
+\newpage
+<!-- # LIST OF FIGURES -->
+\raggedright
+\listoffigures
+
+\newpage
+<!-- # LIST OF  TABLES -->
+\listoftables
+
+<!-- # LIST OF  nomenclature -->
+\newpage
+```{r nomenclature, child = 'chapters/nomenclature.Rmd' , cache=TRUE}
+``` 
+
+
+\newpage
+\pagenumbering{arabic}
+
+
+```{r chapter1, child = 'chapters/chapter1.Rmd' , cache=TRUE}
+```
+
+
+```{r chapter2, child = 'chapters/chapter2.Rmd', cache=TRUE}
+```
+
+
+```{r chapter3, child = 'chapters/chapter3.Rmd', cache=TRUE}
+```
+
+
+
+```{r chapter4, child = 'chapters/chapter4.Rmd', cache=TRUE}
+```
+
+<!-- references will go here -->
+
+```{r apref, child = 'appendix/appendix_ref.Rmd'}
+```
+
+
+<div id="refs"></div>
+
+
+
+
+```{r ap0, child = 'appendix/plagiarism.Rmd', cache=TRUE}
+```
+
+```{r ap1, child = 'appendix/appendix_1.Rmd', cache=TRUE}
+```
+
+
+<!-- you can include other appendices here with the above format -->

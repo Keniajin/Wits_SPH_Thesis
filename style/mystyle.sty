@@ -1,0 +1,64 @@
+% %\usepackage{helvet}
+% %\renewcommand{\familydefault}{\sfdefault}
+% 
+ %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup for chapter layout
+\usepackage[Sonny]{fncychap}
+\usepackage{refcount}
+\usepackage{mathspec}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{lscape}
+
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+\usepackage{caption}
+% \usepackage{fontspec}
+ %\usepackage[skip=12pt,font=scriptsize]{caption}
+ \setmainfont{Arial}
+ \usepackage{ragged2e}
+ \usepackage{float}
+
+ \usepackage{graphicx}
+\usepackage{setspace} %%for equation space
+%\numberwithin{equation}{section}
+ \usepackage{placeins}
+ \usepackage{chngcntr}
+ \usepackage{microtype}
+ 
+ 
+%remove hyphens in latex 
+\usepackage[none]{hyphenat}
+
+%\counterwithin{equation}{section} defining the sections for equations
+\renewcommand{\theequation}{Eqn:\arabic{equation}}
+
+%setting caption to top
+%\usepackage{floatrow}
+%\floatsetup[table]{capposition=top}
+ \floatstyle{plaintop}
+\restylefloat{table}
+
+
+
+%https://tex.stackexchange.com/questions/164640/customize-equation-numbering-for-equation-environment
+%\usepackage{pdfpages}
+%\fontsize{12pt} {}\selectfont
+% %\usepackage{bibentry}
+% %\bibliography{bibliography.bib}
+% %\usepackage{biblatex}
+% %\renewcommand*{\bibfont}{\tiny}
+% 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[R]{\leftmark }
+% \fancyhead[R]{KM Wambui - 1504769}
+%\fancyfoot[LE,RO]{\thepage}
+%\fontsize{14}{22}
+%\fontseries{b}
+%\selectfont
+%\usepackage{setspace}
+%\doublespacing
+
+
+\counterwithin{figure}{section}
+\counterwithin{table}{section}

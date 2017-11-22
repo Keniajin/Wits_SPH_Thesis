@@ -1,0 +1,36 @@
+---
+output: pdf_document
+---
+\addtocounter{section}{3}
+\newpage
+
+# CHAPTER 4: DISCUSSION AND CONCLUSION
+
+## 4.1 Introduction 
+This chapter discusses the key results from our analysis
+
+In general, reference  Figure~\ref{fig:figure1}.  
+
+## 4.2 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry
+
+## 4.3 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry
+## 4.4 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry
+
+## 4.5 Strengths and limitations of the study
+The strength and limitations of the results and discussion in this research project are discussed in four broad categories; 
+
+- Category 1
+- Category 2
+ 
+
+### 4.5.1 Category 1
+.Lorem Ipsum is simply dummy text of the printing and typesetting industry
+
+### 4.5.2 Category 2
+Lorem Ipsum is simply dummy text of the printing and typesetting industry
+
+## 4.6 Conclusion
+in conclusion  .....

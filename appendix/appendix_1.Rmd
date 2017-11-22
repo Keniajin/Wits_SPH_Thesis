@@ -1,0 +1,15 @@
+---
+header-includes:
+   - \usepackage{pdfpages}
+output: 
+  pdf_document:default
+---
+\addtocounter{section}{4}
+
+## Clearance Certificate
+
+
+<!-- \includepdf[pages=-]{SKMBT_28316120213461.pdf} -->
+
+\includegraphics{../docs/ethics_certificate.pdf}
+

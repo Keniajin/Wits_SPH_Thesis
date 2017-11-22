@@ -1,0 +1,51 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
+\justify
+\addtocounter{section}{1}
+
+# CHAPTER 1: INTRODUCTION AND BACKGROUND \label{label1}
+## 1.1 Background
+### 1.1.1  
+Background 1.1.1  this is how we reference from the bibiliography.bib file [@Black2013; @Black2008]. If its one reference then its  [@Black2008]. Check the file under bibliography called bibliography.bib that contains bibtex content from either google scholar, mendeley or endnote
+
+
+### 1.1.2
+Background 1.1.2 
+
+### 1.1.3  
+Background 1.1.3 
+
+## 1.2 Problem statement
+Problem statement 
+
+## 1.3 Justification of the study 
+ Justification of the study 
+
+
+## 1.4 Literature review
+### 1.4.1 
+Literature review  sub section 1.4.1 
+
+### 1.4.2 
+Literature review  sub section 1.4.2 
+
+
+## 1.5 Research question
+
+Is it PICOT criteria and Feasible Interesting Novel Ethical Relevant 
+
+## 1.6 Aim and objectives of the study 
+### 1.6.2 Study aim
+ 
+
+### 1.6.3 Study objectives
+
+a)    To describe .... 
+  
+b)    To investigate ..... 
+  
+c)    To investigate ...
